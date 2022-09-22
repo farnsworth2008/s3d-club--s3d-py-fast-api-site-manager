@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+. s3d-env-init
+uvicorn main:app --reload
