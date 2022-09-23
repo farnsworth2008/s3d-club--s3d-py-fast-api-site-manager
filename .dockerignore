@@ -1,0 +1,5 @@
+*.md
+*.swp
+.git
+Dockerfile
+s3d_app

@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+# Run docker with flags to expose the port we use and make "it" interactive.
+docker run -i -p 8000:8000 -t $(docker build -q .) ./s3d-start

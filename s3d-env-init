@@ -4,11 +4,11 @@ app_dir=s3d_app
 if [ ! -d $app_dir ]; then
   echo "INFO: Preparing $app_dir"
   python3 -m venv $app_dir
-  source "./$app_dir/bin/activate"
+  . "./$app_dir/bin/activate"
   pip install pip --upgrade
-  pip install fastapi
-  pip install 'uvicorn[standard]'
+  pip install --no-cache-dir --upgrade -r ./requirements.txt
+  pip install uvicorn[standard]
 else
-  source "./$app_dir/bin/activate"
+  . "./$app_dir/bin/activate"
 fi
 
