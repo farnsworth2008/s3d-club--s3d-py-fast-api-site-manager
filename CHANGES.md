@@ -2,14 +2,18 @@
 Recently completed and planned work is tracked here.
 
 ## [0.0.0](.) [0.0.2](.)
-- Add `/echo` resources
-- Add `s3d-env-init` and `s3d-start` scripts
-- Add working FastAPI
+- Added FastAPI
+- Added `/echo` resources
+- Added `s3d-env-init` and `s3d-start` scripts
 
 ## [0.0.3](.)
-- Add `Dockerfile`
+- Added `Dockerfile` and associated scripting
 
-## [Next](.)
-- **TODO** Added secure header
-- **TODO** Added structured input/output
-- **TODO** Added stuff that we plan
+## [0.0.4](.)
+- Improved `README.md`
+
+## [plan](.)
+- **TODO** Add security header
+- **TODO** Add structured input/output
+- **TODO** Add Open API spec
+- **TODO** Mod improved `README.md`
