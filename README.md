@@ -1,10 +1,10 @@
-# S3D Site Manager Python API
-The Python based S3D Club Site Manager API.
+# S3D Python API
+The Python based S3D API.
 
 ## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
 and [CHANGES][chge] documents before working in this project and anytime they
-are update.
+are updated.
 
 ## Overview
 The club's Python based API exists in part to provide site management features
